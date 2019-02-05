@@ -26,6 +26,6 @@ void ungetch(int c)
 	}
 	else
 	{
-	buf[bufp++] = c;
+		buf[bufp++] = c;
 	}
 }
